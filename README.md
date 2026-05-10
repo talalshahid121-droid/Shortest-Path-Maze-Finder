@@ -90,6 +90,8 @@ Shortest-Path-Maze-Finder/
 
 
 ## 📁 The Architecture Diagram
+
+```text
               ┌────────────────────────┐
               │      USER INTERFACE    │
               │   (Pygame Event Loop)  │
