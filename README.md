@@ -183,3 +183,27 @@ It allows for a direct "Head-to-Head" comparison between different types of AI l
 
 ```
 
+
+## 📁 Project Structure
+
+Shortest-Path-Maze-Finder/
+│
+├── 💻 code/                    # Core Engine & GUI
+│   ├── algorithms/             # A*, BFS, and DFS implementations
+│   ├── ui/                     # Pygame interface and event handling
+│   └── main.py                 # Application entry point
+│
+├── 📑 docs/                    # Technical Documentation
+│   ├── overview.md             # Architecture & Module responsibilities
+│   └── final_report.pdf        # Comprehensive technical project report
+│
+├── 📊 dataset/                 # Experimental Evidence
+│   ├── raw_data.csv            # Benchmark metrics (Time, Nodes, Path)
+│   └── visuals/                # Performance bar charts and tables
+│
+├── 📂 presentation/            # Communication Materials
+│   ├── week1_theory.pdf        # Initial heuristic research slides
+│   └── week9_final.pptx        # Final project defense presentation
+│
+└── 📜 publications/            # Academic Contribution
+    └── ieee_article.pdf        # Formal research paper on search efficiency
