@@ -4,6 +4,18 @@
 # Shortest-Path-Maze-Finder
 A comprehensive AI pathfinding system implementing A*, BFS, and DFS algorithms to solve dynamic mazes with various heuristic optimizations.
 
+## 📍 Table of Contents
+* [🔬 Overview](#-overview)
+* [🚀 Setup & Installation](#-setup--installation)
+* [✨ Key Features](#-key-features)
+* [📁 Project Structure](#-project-structure)
+* [📊 Performance Benchmarks](#-performance-benchmarks)
+* [📜 Publication & Reports](#-publication--reports)
+* [⚕️ Disclaimer](#-disclaimer)
+
+
+
+
 ## 📁Setup & Installation
 
 Follow these steps to get the environment ready and run the pathfinding system on your local machine.
