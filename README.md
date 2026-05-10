@@ -13,10 +13,48 @@ A comprehensive AI pathfinding system implementing A*, BFS, and DFS algorithms t
 * [📜 Publication & Reports](#-publication--reports)
 * [⚕️ Disclaimer](#-disclaimer)
 
+## 📁 The Architecture Diagram
+              ┌────────────────────────┐
+              │      USER INTERFACE    │
+              │   (Pygame Event Loop)  │
+              │                        │
+              │  Draws Walls/Start/End │
+              │  Captures Key Presses  │
+              └───────────┬────────────┘
+                          │
+                          ▼
+              ┌────────────────────────┐
+              │   SEARCH ORCHESTRATOR  │
+              │                        │
+              │  Selects Algorithm:    │
+              │  BFS / DFS / A* │
+              └───────────┬────────────┘
+                          │
+          ┌───────────────┴───────────────┐
+          ▼                               ▼
+┌────────────────────┐          ┌────────────────────┐
+│  HEURISTIC ENGINE  │          │  INFERENCE ENGINE  │
+│                    │          │                    │
+│  Manhattan /       │◄────────►│  Priority Queue    │
+│  Euclidean /       │          │  Frontier Tracking │
+│  Octile            │          │  Path Backtracking │
+└────────────────────┘          └────────────────────┘
+          │                               │
+          └───────────────┬───────────────┘
+                          ▼
+              ┌────────────────────────┐
+              │   VISUALIZATION LAYER  │
+              │                        │
+              │  Real-time Grid Update │
+              │  Spatio-temporal Path  │
+              └────────────────────────┘
+
+
 
 
 
 ## 📁Setup & Installation
+
 
 Follow these steps to get the environment ready and run the pathfinding system on your local machine.
 
@@ -100,42 +138,4 @@ Shortest-Path-Maze-Finder/
 └── README.md                   # Project Overview
 
 
-
-## 📁 The Architecture Diagram
-
-```text
-              ┌────────────────────────┐
-              │      USER INTERFACE    │
-              │   (Pygame Event Loop)  │
-              │                        │
-              │  Draws Walls/Start/End │
-              │  Captures Key Presses  │
-              └───────────┬────────────┘
-                          │
-                          ▼
-              ┌────────────────────────┐
-              │   SEARCH ORCHESTRATOR  │
-              │                        │
-              │  Selects Algorithm:    │
-              │  BFS / DFS / A* │
-              └───────────┬────────────┘
-                          │
-          ┌───────────────┴───────────────┐
-          ▼                               ▼
-┌────────────────────┐          ┌────────────────────┐
-│  HEURISTIC ENGINE  │          │  INFERENCE ENGINE  │
-│                    │          │                    │
-│  Manhattan /       │◄────────►│  Priority Queue    │
-│  Euclidean /       │          │  Frontier Tracking │
-│  Octile            │          │  Path Backtracking │
-└────────────────────┘          └────────────────────┘
-          │                               │
-          └───────────────┬───────────────┘
-                          ▼
-              ┌────────────────────────┐
-              │   VISUALIZATION LAYER  │
-              │                        │
-              │  Real-time Grid Update │
-              │  Spatio-temporal Path  │
-              └────────────────────────┘
 
