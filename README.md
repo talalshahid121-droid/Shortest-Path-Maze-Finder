@@ -87,28 +87,41 @@ Shortest-Path-Maze-Finder/
 │
 └── README.md                   # Project Overview
 
-## 🔬 System Overview
 
-<details>
-<summary><b>Click to expand: Full Architecture & Module Responsibilities</b></summary>
 
-### 🏗️ Architecture Diagram
-```text
+## 📁 The Architecture Diagram
               ┌────────────────────────┐
               │      USER INTERFACE    │
               │   (Pygame Event Loop)  │
+              │                        │
+              │  Draws Walls/Start/End │
+              │  Captures Key Presses  │
               └───────────┬────────────┘
+                          │
                           ▼
               ┌────────────────────────┐
               │   SEARCH ORCHESTRATOR  │
+              │                        │
+              │  Selects Algorithm:    │
+              │  BFS / DFS / A* │
               └───────────┬────────────┘
+                          │
           ┌───────────────┴───────────────┐
           ▼                               ▼
 ┌────────────────────┐          ┌────────────────────┐
-│  HEURISTIC ENGINE  │◄────────►│  INFERENCE ENGINE  │
+│  HEURISTIC ENGINE  │          │  INFERENCE ENGINE  │
+│                    │          │                    │
+│  Manhattan /       │◄────────►│  Priority Queue    │
+│  Euclidean /       │          │  Frontier Tracking │
+│  Octile            │          │  Path Backtracking │
 └────────────────────┘          └────────────────────┘
+          │                               │
+          └───────────────┬───────────────┘
                           ▼
               ┌────────────────────────┐
               │   VISUALIZATION LAYER  │
+              │                        │
+              │  Real-time Grid Update │
+              │  Spatio-temporal Path  │
               └────────────────────────┘
 
