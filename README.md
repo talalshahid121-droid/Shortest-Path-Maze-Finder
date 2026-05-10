@@ -57,3 +57,23 @@ This project implements a layered AI approach to pathfinding. By separating the 
               │  Real-time Grid Update │
               │  Spatio-temporal Path  │
               └────────────────────────┘
+```
+
+## 🚀 Setup & Installation
+### Follow these steps to configure your local environment and launch the pathfinding simulator.
+```text 
+
+### 📋 Prerequisites
+
+Ensure you have the following installed on your system:
+* **Python 3.10+** 🐍
+* **pip** (Python Package Installer)
+* **Git**
+
+### 🛠️ Installation Steps
+
+1. **Clone the Repository**
+   Download the project files to your local machine:
+   ```bash
+   git clone [https://github.com/YourUsername/Shortest-Path-Maze-Finder.git](https://github.com/YourUsername/Shortest-Path-Maze-Finder.git)
+   cd Shortest-Path-Maze-Finder
