@@ -3,7 +3,16 @@
 [![A* Pathfinding](https://img.shields.io/badge/Algorithm-A%2a%20Search-orange?style=for-the-badge)](https://en.wikipedia.org/wiki/A*_search_algorithm)
 
 # Shortest-Path-Maze-Finder
-A comprehensive AI pathfinding system implementing A*, BFS, and DFS algorithms to solve dynamic mazes with various heuristic optimizations.
+This project is a high-performance, real-time computational framework developed to analyze and visualize the efficiency of **Informed vs. Uninformed search strategies** within dynamic, grid-based environments. 
+
+Rather than just finding a path, this system acts as a **benchmarking suite** that evaluates how artificial intelligence navigates complexity, manages computational resources, and optimizes decision-making using mathematical heuristics.
+
+### 🧠 The Core Challenge
+In modern robotics and automated logistics, the challenge isn't just moving from Point A to Point B—it is doing so while minimizing **computational overhead** and **path cost**. This system provides a sandbox to test three fundamental pillars of AI search:
+
+1.  **Exhaustive Exploration (BFS):** Understanding the brute-force baseline for optimality.
+2.  **Memory-Efficient Traversal (DFS):** Testing the limits of deep-branch exploration.
+3.  **Heuristic-Driven Optimization (A*):** Implementing advanced distance metrics—**Manhattan, Euclidean, and Octile**—to guide the agent with mathematical "intuition."
 
 ## 📍 Table of Contents
 * [🔬 Overview](#-overview)
