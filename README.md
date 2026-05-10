@@ -219,7 +219,7 @@ In Week 8, a rigorous empirical study was conducted to evaluate the efficiency o
 The following table represents average metrics across 100 iterations with a **20% obstacle density**:
 
 | Metric                  | BFS (Breadth-First) | DFS (Depth-First) | A* (Manhattan)          |
-| :---                    | :---                | :---              | :---                    |
+-----------------------------------------------------------------------------------------------
 | Search Category         | Uninformed          | Uninformed        | Informed                |
 | Nodes Explored          | 1,420               | 915               | 342                     |
 | Avg. Execution Time     | 42.1 ms             | 14.8 ms           | 9.2 ms                  |
