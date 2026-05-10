@@ -8,7 +8,7 @@ A comprehensive AI pathfinding system implementing A*, BFS, and DFS algorithms t
 ## 📍 Table of Contents
 * [🔬 Overview](#-overview)
 * [📁 Setup & Installation](#-setup--installation)
-* [✨ Key Features](#-key-features)
+* [📁 Key Features](#-key-features)
 * [📁 Project Structure](#-project-structure)
 * [📊 Performance Benchmarks](#-performance-benchmarks)
 * [📜 Publication & Reports](#-publication--reports)
@@ -129,3 +129,34 @@ Sometimes things go wrong. Here is why:
 "ModuleNotFoundError": This usually means you installed the libraries but forgot to activate your virtual environment first.
 
 "Python is not recognized": This means Python is installed, but your computer doesn't know where it is (it's not in your "Path"). You usually fix this by ticking the "Add Python to PATH" box during installation.
+
+
+
+```
+
+## 📁 Key Features
+### Here is the breakdown of the high-level features you’ve built into the Shortest-Path-Maze-Finder:
+```text 
+
+
+
+```
+🧠 1. Multi-Algorithmic Intelligence
+The system isn't limited to a single search method. 
+It allows for a direct "Head-to-Head" comparison between different types of AI logic:Informed Search (A):* Uses heuristics to "aim" at the goal, minimizing the number of nodes explored.Uninformed Search (BFS): Explores equally in all directions. It is mathematically guaranteed to find the shortest path but is much slower than A*.Depth-First Search (DFS): A memory-efficient "plunge" into the maze. While fast, it often finds incredibly long, non-optimal paths.
+
+
+
+🎯 2. Dynamic Heuristic EngineOne of the most advanced features is the ability to swap the "Mathematical Strategy" of the A* algorithm on the fly. This changes how the AI estimates the distance to the target:Manhattan Distance: Perfect for 4-directional grids (Up, Down, Left, Right).Euclidean Distance: Calculates the direct diagonal line (as the crow flies).Octile Distance: Optimized for 8-directional movement, accounting for the $\sqrt{2}$ cost of diagonal steps.
+
+
+
+⚡ 3. Real-Time Interactive EnvironmentThe maze is not a static image; it is a live, editable data structure.Live Obstacle Drawing: You can click and drag to "paint" walls. The AI treats these as infinite-cost nodes that it must navigate around.Drag-and-Drop Start/End: Users can move the Start (Source) and End (Target) points even after the maze is built to test how the path changes based on location.Dynamic Replanning: If the user places an obstacle while the algorithm is running, the system can detect the blockage and attempt to find a new route.
+
+
+
+📊 4. Performance & Visual Audit LayerThe system is "Transparent," meaning it shows its work as it thinks. This is critical for academic evaluation:Frontier Visualization: The "Open Set" (nodes the AI is currently considering) is highlighted in a distinct color, showing the "frontier" of the search.Visited State Tracking: The "Closed Set" (nodes already checked) shows the total area the algorithm had to cover.Metric Logging: The system automatically calculates and displays:Total Path Length: The final distance of the shortest route.Nodes Explored: A measure of how "smart" or "efficient" the algorithm was.Execution Time: How many milliseconds it took to compute the solution.
+
+
+
+🛠️ 5. Utility & Maintenance ToolsTo make the testing process smooth during your benchmarks, you included several "Quick Actions":One-Click Clear: Instantly wipes the entire grid to start a new experiment (C Key).Path Reset: Removes the final path but keeps your custom-built walls, allowing you to test a different algorithm on the exact same maze (R Key).Grid Scaling: The system is built to handle different grid sizes, allowing for tests on simple 10x10 grids or complex, high-resolution mazes.
