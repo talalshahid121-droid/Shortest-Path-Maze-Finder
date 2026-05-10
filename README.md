@@ -54,7 +54,7 @@ A comprehensive AI pathfinding system implementing A*, BFS, and DFS algorithms t
 
 ```
 ## 📁 Setup and Installation
-```text
+
 
 Follow these steps to get the environment ready and run the pathfinding system on your local machine.
 
@@ -118,7 +118,7 @@ numpy
 
 
 
-```
+
 ## 📁 Project Structure
 ```text
 Shortest-Path-Maze-Finder/
