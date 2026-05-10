@@ -149,7 +149,7 @@ It allows for a direct "Head-to-Head" comparison between different types of AI l
 
 
 🎯 2. Dynamic Heuristic EngineOne of the most advanced features is the ability to swap the "Mathematical Strategy" of the A* algorithm on the fly. This changes how the AI estimates the distance to the target:
-###
+
 -Manhattan Distance: Perfect for 4-directional grids (Up, Down, Left, Right).
 -Euclidean Distance: Calculates the direct diagonal line (as the crow flies).
 -Octile Distance: Optimized for 8-directional movement, accounting for the $\sqrt{2}$ cost of diagonal steps.
