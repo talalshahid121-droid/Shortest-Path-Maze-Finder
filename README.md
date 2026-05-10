@@ -58,8 +58,6 @@ Spacebar: Begin the A* Pathfinding search.
 'C' Key: Clear the entire grid to start over.
 
 'R' Key: Reset the path while keeping the obstacles.
-
-```text
 pygame
 numpy
 
