@@ -215,26 +215,20 @@ Shortest-Path-Maze-Finder/
 ```text 
 In Week 8, a rigorous empirical study was conducted to evaluate the efficiency of Informed vs. Uninformed search strategies. The algorithms were tested on 50x50 grids with varying obstacle densities to measure their computational footprint.
 
-### 📈 Comparative Analysis
+📈 Comparative Analysis
 The following table represents average metrics across 100 iterations with a **20% obstacle density**:
 
-| Metric | BFS (Breadth-First) | DFS (Depth-First) | A* (Manhattan) |
-| :--- | :--- | :--- | :--- |
-| **Search Category** | Uninformed | Uninformed | **Informed** |
-| **Nodes Explored** | 1,420 | 915 | **342** |
-| **Avg. Execution Time** | 42.1 ms | 14.8 ms | **9.2 ms** |
-| **Path Optimality** | Guaranteed Shortest | Non-Optimal | **Guaranteed Shortest** |
-| **Memory Usage** | High | Low | **Moderate** |
+| Metric                  | BFS (Breadth-First) | DFS (Depth-First) | A* (Manhattan)          |
+| :---                    | :---                | :---              | :---                    |
+| Search Category         | Uninformed          | Uninformed        | Informed                |
+| Nodes Explored          | 1,420               | 915               | 342                     |
+| Avg. Execution Time     | 42.1 ms             | 14.8 ms           | 9.2 ms                  |
+| Path Optimality         | Guaranteed Shortest | Non-Optimal       | Guaranteed Shortest     |
+| Memory Usage            | High                | Low               | Moderate                |
 
-### 🔍 Key Findings
 
-1.  **Exploration Efficiency:** A* Search explored approximately **75% fewer nodes** than BFS. This is due to the Heuristic function ($h(n)$) guiding the search toward the target rather than expanding in all directions.
-2.  **Path Quality:** While DFS was occasionally faster in raw execution time, it produced paths that were **150% to 300% longer** than the optimal solution, making it unsuitable for shortest-path requirements.
-3.  **Heuristic Impact:** Manhattan distance proved most efficient for 4-way movement, while Octile distance was necessary to maintain optimality in 8-way (diagonal) movement tests.
 
----
-
-### 🖼️ Visual Evidence
+🖼️ Visual Evidence
 The following charts (found in the `/dataset/visuals/` folder) illustrate the exponential growth of nodes explored by BFS compared to the linear growth of A* as maze complexity increases.
 
 
