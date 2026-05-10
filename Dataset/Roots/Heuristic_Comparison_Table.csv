@@ -1,0 +1,10 @@
+Maze Size,Heuristic,Path Cost ,Path Length,Nodes Explored,Runtime(ms)
+20 x 20 ,Manhattan,33.317,31,73,1.0523
+20 x 20 ,Euclidean ,33.317,31,141,1.2098
+20 x 20 ,Octile,33.317,31,108,1.0138
+50 x 50 ,Manhattan,88.8701,82,240,2.8056
+50 x 50 ,Euclidean ,83.3553,74,1418,12.161
+50 x 50 ,Octile,83.3553,74,1083,11.5248
+100 x 100 ,Manhattan,177.397,161,484,4.9672
+100 x 100 ,Euclidean ,169.196,147,4994,44.2864
+100 x 100 ,Octile,169.196,147,3573,33.4662
