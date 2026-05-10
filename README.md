@@ -42,8 +42,11 @@ Launch the Application
 Run the main entry point to start the GUI and interact with the pathfinder:
 
 Bash
+
 python main.py
+
 [!IMPORTANT]
+
  GPU Acceleration: While the algorithms run on the CPU, ensure your graphics drivers are up to date for the best performance with the Pygame visualization.
 
 💻 Usage Instructions
