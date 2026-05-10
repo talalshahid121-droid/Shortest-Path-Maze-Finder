@@ -63,6 +63,8 @@ This project implements a layered AI approach to pathfinding. By separating the 
 ### Follow these steps to configure your local environment and launch the pathfinding simulator.
 ```text 
 
+
+
 1. The Foundation: Python & Pip
 Before the project can breathe, you need two things:
 
@@ -70,10 +72,20 @@ Python 3.10+: This is the engine. It interprets the .py files and executes the l
 
 Pip: This is the "courier." It goes to the internet, finds the libraries you need (like Pygame), and brings them to your computer.
 
+
+
+
+
+
 2. The Sandbox: The Virtual Environment (venv)
 In professional software development, you never install libraries globally. If you have two different projects that need different versions of the same library, your computer will get confused.
 
 Why we do it: Creating a .venv (Virtual Environment) creates a private folder inside your project. When you install Pygame here, it stays here. It keeps your project "portable," meaning it will work exactly the same way on your professor's computer as it does on yours.
+
+
+
+
+
 
 3. The Toolbox: Installing Dependencies
 Your code doesn't do everything from scratch. It stands on the shoulders of two giants:
@@ -81,6 +93,10 @@ Your code doesn't do everything from scratch. It stands on the shoulders of two 
 NumPy: This is for the "Math." It treats your maze as a coordinate grid (a matrix). It allows the A* algorithm to calculate distances across thousands of nodes in milliseconds.
 
 Pygame: This is for the "Window." It handles the graphics, the mouse clicks, and the real-time animation of the path.
+
+
+
+
 
 4. The "Full Execution" Workflow
 Here is exactly what happens when you follow the setup steps:
@@ -102,6 +118,10 @@ Initialization: The grid is created in the computer's memory.
 Display: Pygame opens a window and draws that grid.
 
 Event Loop: The program sits and waits for you to click. It is "listening" for your mouse to define the Start and End points.
+
+
+
+
 
 5. Troubleshooting the Setup
 Sometimes things go wrong. Here is why:
