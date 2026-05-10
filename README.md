@@ -11,7 +11,8 @@ A comprehensive AI pathfinding system implementing A*, BFS, and DFS algorithms t
 * [📁 Key Features](#-key-features)
 * [📁 Project Structure](#-project-structure)
 * [📁 Performance Benchmarks](#-performance-benchmarks)
-* [📜 Publication & Reports](#-publication--reports)
+* [📁 Reports](#-reports)
+* [📁 Weekly Progress](#-weekly-progress)
 * [⚕️ Disclaimer](#-disclaimer)
 
 ---
@@ -231,11 +232,48 @@ The following table represents average metrics across 100 iterations with a **20
 🖼️ Visual Evidence
 The following charts (found in the `/dataset/visuals/` folder) illustrate the exponential growth of nodes explored by BFS compared to the linear growth of A* as maze complexity increases.
 
-
-
-
-
 > [!NOTE]
 > **Technical Conclusion:** The data validates that the A* algorithm, when paired with an admissible heuristic, provides the most efficient balance of time complexity and path accuracy for real-time navigation systems.
 
 ```
+
+## 📁 Reports
+```text 
+This project includes a comprehensive final report and research article detailing the 9-week development lifecycle and the mathematical logic used for pathfinding.
+
+📑 Final Project Report
+The complete technical documentation, including methodology, pseudocode, and system design, is located in the dedicated documentation folder.
+
+> [!NOTE]
+> [View the Final Report →](./docs/final_report.pdf)
+```
+
+## 📁 Weekly Progrees
+```text 
+9-Week Plan
+Week 1: Literature + heuristic theory → Presentation
+Week 2: BFS/DFS baseline implementation → Comparison
+Week 3: A* implementation → Working demo
+Week 4: Heuristic optimization + large mazes → Graphs
+Week 5: Visualization (search tree + animation) → Live demonstration
+Week 6: Dynamic obstacles + replanning → Testing
+Week 7: GUI + draft report
+Week 8: Complexity analysis + final benchmarks → Report
+Week 9: Final presentation + delivery
+```
+
+## ⚕️ Disclaimer
+```text 
+This project, Shortest-Path-Maze-Finder , was developed as a final academic project for the Master of Science (MSc) program at Istanbul Okan University .
+
+⚠️ Terms of Use
+Academic Purpose: The software and research provided in this repository are for educational and research purposes only. They are intended to demonstrate the implementation of search algorithms and heuristic theory.
+
+No Warranty: The code is provided "as is" without warranty of any kind, express or implied. The author is not responsible for any issues arising from the use of this software in commercial or production environments.
+
+Intellectual Property: All research articles and reports included in the /publicationsand /docsfolders are the intellectual property of the author. Proper citation is required if referencing these works in other academic papers.
+
+[CAUTION]
+ Performance: The visualizations are designed for educational clarity. Running extremely large grids (eg, 500x500) may lead to high CPU usage depending on the hardware specifications.
+```
+ 
