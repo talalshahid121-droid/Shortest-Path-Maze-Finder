@@ -4,3 +4,24 @@
 # Shortest-Path-Maze-Finder
 A comprehensive AI pathfinding system implementing A*, BFS, and DFS algorithms to solve dynamic mazes with various heuristic optimizations.
 
+## 📁 Project Structure
+
+```text
+Shortest-Path-Maze-Finder/
+│
+├── src/                        # Core AI Algorithms
+│   ├── astar.py                # A* Implementation (Week 3)
+│   ├── search.py               # BFS & DFS Baselines (Week 2)
+│   └── heuristics.py           # Manhattan, Euclidean, Octile (Week 4)
+│
+├── gui/                        # Week 7 - Pygame Interface
+│   └── app.py                  # Main entry point
+│
+├── data/                       # Dataset & Benchmarks
+│   ├── performance_data.csv    # Results from Week 4/8
+│   └── visuals/                # Bar charts and tables
+│
+├── publication/                # Week 8 - IEEE Research Paper
+│   └── report.pdf
+│
+└── README.md                   # Project Overview
