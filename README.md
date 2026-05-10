@@ -87,3 +87,18 @@ Shortest-Path-Maze-Finder/
 │
 └── README.md                   # Project Overview
 
+
+
+## 📁 Overview
+```text
+
+This project implements a comprehensive **AI Pathfinding System** designed to solve navigation problems in dynamic environments. It transitions from traditional search baselines to optimized, heuristic-driven intelligence.
+
+| Layer | Role | Technology |
+| :--- | :--- | :--- |
+| **Interface** | Handles real-time user interaction, obstacle drawing, and grid management. | Pygame GUI & Event Handling |
+| **Search Engine** | Executes core logic for path discovery using BFS, DFS, and A*. | Python Data Structures (Priority Queues) |
+| **Intelligence** | Provides mathematical estimations of distance to optimize search speed. | Manhattan, Euclidean, & Octile Heuristics |
+| **Visualization** | Generates real-time animations of the search frontier and optimal paths. | Spatiotemporal Frame Rendering |
+
+The system is **fully observable** — every node expansion and distance calculation is visualized in real-time to demonstrate algorithmic efficiency.
