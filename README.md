@@ -87,5 +87,28 @@ Shortest-Path-Maze-Finder/
 │
 └── README.md                   # Project Overview
 
+## 🔬 System Overview
 
+<details>
+<summary><b>Click to expand: Full Architecture & Module Responsibilities</b></summary>
+
+### 🏗️ Architecture Diagram
+```text
+              ┌────────────────────────┐
+              │      USER INTERFACE    │
+              │   (Pygame Event Loop)  │
+              └───────────┬────────────┘
+                          ▼
+              ┌────────────────────────┐
+              │   SEARCH ORCHESTRATOR  │
+              └───────────┬────────────┘
+          ┌───────────────┴───────────────┐
+          ▼                               ▼
+┌────────────────────┐          ┌────────────────────┐
+│  HEURISTIC ENGINE  │◄────────►│  INFERENCE ENGINE  │
+└────────────────────┘          └────────────────────┘
+                          ▼
+              ┌────────────────────────┐
+              │   VISUALIZATION LAYER  │
+              └────────────────────────┘
 
