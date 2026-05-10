@@ -63,17 +63,29 @@ This project implements a layered AI approach to pathfinding. By separating the 
 ### Follow these steps to configure your local environment and launch the pathfinding simulator.
 ```text 
 
-### 📋 Prerequisites
+<details>
+<summary><b>Click to expand: Full Installation & Usage Guide 🛠️</b></summary>
 
-Ensure you have the following installed on your system:
+### 📋 Prerequisites
 * **Python 3.10+** 🐍
 * **pip** (Python Package Installer)
 * **Git**
 
-### 🛠️ Installation Steps
+---
 
-1. **Clone the Repository**
-   Download the project files to your local machine:
+### 🛠️ Step-by-Step Installation
+
+1. **Clone & Navigate**
    ```bash
    git clone [https://github.com/YourUsername/Shortest-Path-Maze-Finder.git](https://github.com/YourUsername/Shortest-Path-Maze-Finder.git)
    cd Shortest-Path-Maze-Finder
+Environment Setup (Recommended)Bash# Create and activate virtual environment
+python -m venv .venv
+
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+Install DependenciesBashpip install pygame numpy
+Launch ApplicationBashpython main.py
+💻 Controller & UsageOnce the GUI is active, use these controls to interact with the maze:FeatureInputSet Start/EndLeft Click (1st click = Start, 2nd = End)Draw WallsLeft Click + DragErase WallsRight Click + DragStart AlgorithmSpacebarReset SearchR Key (Keeps walls)Clear AllC Key (Wipes entire grid)[!IMPORTANT]Requirements Check: Ensure you have a requirements.txt file in your root directory containing pygame and numpy to use the pip install -r command alternative.
