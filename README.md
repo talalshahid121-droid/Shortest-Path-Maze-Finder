@@ -185,7 +185,7 @@ It allows for a direct "Head-to-Head" comparison between different types of AI l
 
 
 ## 📁 Project Structure
-
+```text 
 Shortest-Path-Maze-Finder/
 │
 ├── 💻 code/                    # Core Engine & GUI
@@ -207,3 +207,4 @@ Shortest-Path-Maze-Finder/
 │
 └── 📜 publications/            # Academic Contribution
     └── ieee_article.pdf        # Formal research paper on search efficiency
+```
