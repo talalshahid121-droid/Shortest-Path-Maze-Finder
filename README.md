@@ -28,7 +28,7 @@ Shortest-Path-Maze-Finder/
 
 
 
-## 🚀 Setup & Installation
+## 📁Setup & Installation
 
 Follow these steps to get the environment ready and run the pathfinding system on your local machine.
 
