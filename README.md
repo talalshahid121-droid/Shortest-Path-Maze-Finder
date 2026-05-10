@@ -14,6 +14,7 @@ A comprehensive AI pathfinding system implementing A*, BFS, and DFS algorithms t
 * [⚕️ Disclaimer](#-disclaimer)
 
 ## 📁 The Architecture Diagram
+```text
               ┌────────────────────────┐
               │      USER INTERFACE    │
               │   (Pygame Event Loop)  │
@@ -49,13 +50,10 @@ A comprehensive AI pathfinding system implementing A*, BFS, and DFS algorithms t
               │  Spatio-temporal Path  │
               └────────────────────────┘
 
+              
 
-
-
-
-## 📁Setup & Installation
-
-
+```
+📁Setup & Installation
 Follow these steps to get the environment ready and run the pathfinding system on your local machine.
 
 ### 📋 Prerequisites
@@ -115,9 +113,10 @@ pygame
 numpy
 
 
-## 📁 Project Structure
 
-```text
+
+
+📁 Project Structure
 Shortest-Path-Maze-Finder/
 │
 ├── src/                        # Core AI Algorithms
